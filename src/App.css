@@ -3,10 +3,13 @@
 }
 .App-header {
   background-color: #282c34;
-  color: white;
   font-size: 25px;
   height: 30px;
   padding: 20px 10px 20px 40px;
+}
+.App-header a, .App-header a:visited, .App-header a:hover{
+  text-decoration: none;
+  color: white;
 }
 
 .list{
@@ -16,6 +19,23 @@
   padding-left: 10px;
   text-align: left;
   border-bottom: 1px solid rgb(154, 154, 154);
+}
+
+.Home-btn button{
+  width: 10rem;
+  height: 6rem;
+  font-size: 20px;
+  margin: 30px;
+  border-radius: 1px;
+  background-color: #dadce28c;
+  border: 1px solid rgb(199, 199, 199);
+  box-shadow: 0 2px 5px rgba(105, 106, 112, 0.3);
+
+}
+
+.Home-btn a, .Home-btn a:visited, .Home-btn a:hover{
+  text-decoration: none;
+  color: black;
 }
 
 
