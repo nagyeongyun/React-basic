@@ -1,9 +1,7 @@
 import React from 'react';
 import './App.css';
-import {List,Home}from './Components/compo.js';
+import {List}from './Components/compo.js';
 import {BrowserRouter, Route, Routes, Link} from 'react-router-dom';
-
-
 
 function App() {
   const items1 =[
@@ -11,15 +9,15 @@ function App() {
     {id:2, title:'스즈메의 문단속'},
     {id:3, title:'드림'}];
 
-    const items2 =[
-      {id:1, title:'I AM - 아이브'},
-      {id:2, title:'Grabby Girl - 류수정'},
-      {id:3, title:'마치 - 미노이'}];
+  const items2 =[
+    {id:1, title:'I AM - 아이브'},
+    {id:2, title:'Grabby Girl - 류수정'},
+    {id:3, title:'마치 - 미노이'}];
 
-      const items3 =[
-        {id:1, title:'지구 끝의 온실 - 김초엽'},
-        {id:2, title:'천 개의 파랑 - 천선란'},
-        {id:3, title:'므레모사 - 김초엽'}];
+  const items3 =[
+    {id:1, title:'지구 끝의 온실 - 김초엽'},
+    {id:2, title:'천 개의 파랑 - 천선란'},
+    {id:3, title:'므레모사 - 김초엽'}];
 
     return (
       <div className="App">
