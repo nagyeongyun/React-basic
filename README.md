@@ -10,6 +10,6 @@
 
 <h2>4주차_라우터 사용</h2>
 
-<img width='400' height='600' src='https://user-images.githubusercontent.com/72790695/234245207-37d724f4-3486-476f-8a2e-21b01a56d8b4.gif'>
+<img width='400' height='400' src='https://user-images.githubusercontent.com/72790695/234245207-37d724f4-3486-476f-8a2e-21b01a56d8b4.gif'>
 
 - Route, Routes, Link
